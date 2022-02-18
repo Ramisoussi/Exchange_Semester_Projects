@@ -5,7 +5,7 @@ ont la plus grande influence sur son prix. Ces méthodes puissent aider le vende
 
 J'ai utilisé un dataset extrait de 'Kaggle' qui présente les caractéristiques des voitures vendues en Inde entre 1998 et 2019 avec le prix de la vente.
 
-Dans ce projet, j'ai implémenté les méthodes suivantes :
+Dans ce projet, j'ai implémenté les méthodes suivantes:
 
 - Pearson Correlation
 - Mutual Information
