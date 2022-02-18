@@ -218,15 +218,3 @@ psnr_nearest = Peak_Signal_Noise_Ratio(original_interpolated,nearest)
 psnr_cubic = Peak_Signal_Noise_Ratio(original_interpolated,cubic)
 
 our_psnr = Peak_Signal_Noise_Ratio(original, new)
-
-
-
-
-
-
-
-
-
-
-
-
