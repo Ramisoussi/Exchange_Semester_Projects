@@ -4,7 +4,7 @@ La majorité de ces projets étaient dans les domaines d'intelligence artificiel
 
 Ces projets appartiennet aux matiéres suivantes :
 
-- Intelligence artificielle
+- Intelligence Artificielle
 - Machine Learning
 - Image Processing
 - Databases
