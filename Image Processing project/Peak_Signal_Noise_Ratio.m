@@ -23,10 +23,3 @@ Max = max(img1(:));
 y = 10*log10((Max^2)/m);
 
 end
-
-
-
-
-
-
-
