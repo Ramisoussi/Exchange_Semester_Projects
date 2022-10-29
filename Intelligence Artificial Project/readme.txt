@@ -1,6 +1,6 @@
-In the Artificial Intelligence Project, the instruction was to implement machine learning techniques "from scratch" to solve a problem.
+In the Artificial Intelligence Project, the instruction is to implement machine learning techniques "from scratch" to solve a problem.
 
-I worked on the second hand's car market and I implemented statistical methods to know which characteristics of the car have the greatest influence on its price. These methods can help the seller and the customer to correctly estimate the real cost of the car.
+I work on the second hand's car market and I implemented statistical methods to know which characteristics of the car have the greatest influence on its price. These methods can help the seller and the customer to correctly estimate the real cost of the car.
 
 I used a dataset extracted from 'Kaggle' which presents the characteristics of cars sold in India between 1998 and 2019 with the sale price.
 
