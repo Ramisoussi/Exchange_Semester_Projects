@@ -1,0 +1,25 @@
+Pour voir la page web, il faut suivre les insctructions suivantes :
+
+1) ouvrir le terminal
+
+2) se placer dans le dossier 'rami'
+
+3) créer un environnement virtuel avec : python -m venv env
+
+4) activer l'environnement virtuel avec : source env/scripts/activate
+
+5) installer les librairies nécessaires avec :
+pip install flask
+pip install numpy
+pip install sklearn
+pip install pandas
+
+6) importer flask et vérifier la version avec : python -c "import flask; print(flask.__version__)"
+
+7) exécuter les commandes :
+export FLASK_APP=app
+export FLASK_ENV=development
+flask run
+
+8) une fois la derniére instruction exécutée, on va avoir un lien pour une page web (il est en général 'http://127.0.0.1:5000/'), on le 
+réecrit dans un navigateur pour accéder à la page web.
