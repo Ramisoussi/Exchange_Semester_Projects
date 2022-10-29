@@ -1,13 +1,11 @@
-Le projet de la matiére "Image Processing" s'appelle 'Single Image Super-Resolution'.
+The Image Processing Project is named 'Single Image Super-Resolution'.
 
-Le but de ce projet était de trouver des algorithmes qui augmente la taille de l'image tout en gardant une bonne résolution.
+The goal of this project is to find algorithms that increase the size of the image while keeping a good resolution.
 
-J'ai implémenté deux types d'algorithmes :
+Two types of algorithms are implemented:
 
-1) Un algorithme basé sur des méthodes d'interpolation qui s'appelle 'directionally averaging scaling algorithm'. Cet algorithme utilise des méthodes 
-de traitement d'images tel que le gradient de l'image et la similarité des pixels voisins. J'ai implémenté cet algorithme avec matlab.
+1) An algorithm based on interpolation methods called 'directionally averaging scaling algorithm'. This algorithm uses image processing methods such as the image gradient and the similarity of neighboring pixels. This algorithm is implemented with matlab.
 
-2) Un algorithme basé sur des méthodes d'apprentissage profond où j'ai utilisé principalement la couche ConvTranspose2d appartenante à la librairie torch.
-J'ai implémenté cet algorithme avec python.
+2) An algorithm based on deep learning methods where the ConvTranspose2d layer belonging to the torch library is mainly used. This algorithm with python.
 
-Aprés l'implémentation, j'ai comparé les résolutions données par ces algorithmes sur les mêmes images. 
+After the implementation, the resolutions given by these algorithms on the same images are compared.
