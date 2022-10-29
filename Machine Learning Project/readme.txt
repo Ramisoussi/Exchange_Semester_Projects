@@ -1,15 +1,15 @@
-Le projet de la matiére Machine Learning s'appelle 'Image Denoising'.
+The machine learning Project is named 'Image Denoising'.
 
-Il s'agit d'ajouter un bruit gaussien aux images MNIST puis d'implémenter un auto-encodeur qui sert à débruiter ses images.
+It consists of adding a Gaussian noise to the MNIST images and then implementing an auto-encoder to denoise them.
 
-L'auto-encodeur que j'avais implémenté arrive à débruiter les images aprés 10 epochs d'entrainement.
+The auto-encoder I implemented denoises the images after 10 training epochs.
 
-Pour entrainer un réseau de neurones, on doit choisir une fonction d'optimisation qui met à jour les coefficients des différentes couches.
-Dans mon modéle, j'ai utilisé l'optimiseur Adam qui prend un taux d'apprentissage (learning rate) en entrée.
+To train a neural network, it is necessary to choose an optimization function that updates the coefficients of the different layers.
+In my model, I used the Adam optimizer which takes a learning rate as input.
 
-J'ai comparé deux auto-encodeurs, l'un utilisant un learning rate de 10^(-2) et l'autre 10^(-3) et j'ai comparé leurs performances.
+I compared two autoencoders, one using a 10^(-2) learning rate and the other 10^(-3) and compared their performance.
 
-Dans un deuxiéme temps, j'ai testé le même auto-encodeur sur des images RGB appartenant à la dataset CIFAR de torchvision. 
+Second, I tested the same autoencoder on RGB images belonging to the torchvision CIFAR dataset.
 
-Ce projet était l'occasion de découvrir les auto-encodeurs et d'ajuster les paramétres des différentes couches pour aboutir au meilleur débruitage
-avec une complexité temporelle réduite. 
+This project was an opportunity to discover the auto-encoders and to adjust the parameters of the different layers to obtain the best denoising
+with reduced time complexity. 
