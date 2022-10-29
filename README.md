@@ -1,4 +1,4 @@
-During my academic exchange semester in Brussels, I worked on many projects in the different subjects I studied.
+During my Academic Exchange Semester in Brussels (Erasmus), I worked on many projects in the different subjects I studied.
 
 Most of these projects were in the areas of Artificial Intelligence and Machine Learning.
 
