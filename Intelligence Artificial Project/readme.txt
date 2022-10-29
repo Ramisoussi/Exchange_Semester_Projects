@@ -1,15 +1,14 @@
-Dans le projet de la matiére 'Intelligence artificielle', la consigne était d'implémenter des techniques de machine learning "from scratch" pour résoudre un probléme.
+In the Artificial Intelligence Project, the instruction was to implement machine learning techniques "from scratch" to solve a problem.
 
-J'ai travaillé sur le marché des voitures d'occasion et j'ai impémenté des méthodes statisitiques pour savoir quels sont les caractéristiques de la voiture qui
-ont la plus grande influence sur son prix. Ces méthodes puissent aider le vendeur et le client pour bien estimer le coût réel de la voiture.
+I worked on the second hand's car market and I implemented statistical methods to know which characteristics of the car have the greatest influence on its price. These methods can help the seller and the customer to correctly estimate the real cost of the car.
 
-J'ai utilisé un dataset extrait de 'Kaggle' qui présente les caractéristiques des voitures vendues en Inde entre 1998 et 2019 avec le prix de la vente.
+I used a dataset extracted from 'Kaggle' which presents the characteristics of cars sold in India between 1998 and 2019 with the sale price.
 
-Dans ce projet, j'ai implémenté les méthodes suivantes:
+In this project, I implemented the following methods:
 
 - Pearson Correlation
 - Mutual Information
-- One-Way Anova 
+- One-Way Anova
 - Multivariate Linear Regression
 - Simple Linear Regression
 - Principal Components analysis
