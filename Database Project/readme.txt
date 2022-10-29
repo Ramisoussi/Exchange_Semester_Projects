@@ -1,8 +1,8 @@
-Le but du projet de la matiére 'Database' est la modélisation des différentes relations qui gérent la vente des voitures.
+The purpose of the 'Database' project is to model the different relationships that manage the sale of cars.
 
-Aprés la modélisation, j'ai implémenté des requêtes pour extraire des informations de la base de donnée crée. 
+After modeling, queries are implemented to extract information from the created database.
 
-Le langage utilisé dans ce projet est le SQL pour :
-- la création des entités, des attributs et des relations entre les différentes entités
-- l'insertion des informations dans la base de donnés
-- l'implémentation des requêtes pour chercher des informations
+The language used in this project is SQL for:
+- the creation of entities, attributes and relationships between the different entities
+- inserting information into the database
+- the implementation of queries to search for information
