@@ -1,0 +1,77 @@
+
+    {% extends 'base.html' %}
+
+    {% block content %} 
+    
+    <form action="/table" method="POST">
+        <label for="Number One">Choose the number of players</label>
+        <input
+          type="text"
+          placeholder="number of players"
+          class="u-full-width"
+          name="num1"
+        />
+
+        <br>
+        <br>
+        <table>
+        <tr>
+            <th>&nbsp;</th>
+            <th scope="col"> Name </th>
+            <th scope="col" style="background-color: yellow"> Games_played </th>
+            <th scope="col"> Minutes_played </th>
+            <th scope="col" style="background-color: yellow"> Points_per_game </th>
+            <th scope="col"> Fields_Goals_Made </th>
+
+            <th scope="col" style="background-color: yellow"> Fields_Goals_Attempts </th>
+            <th scope="col"> Fields_Goals_Percent </th>
+            <th scope="col" style="background-color: yellow"> Three_Points_Made </th>
+            <th scope="col"> Three_Points_Atempts </th>
+
+            <th scope="col" style="background-color: yellow"> Three_Points_Percent </th>
+            <th scope="col"> Free_Throw_Made </th>
+            <th scope="col" style="background-color: yellow"> Free_Throw_Attempts </th>
+            <th scope="col"> Free_Throw_Percent</th>
+
+            <th scope="col" style="background-color: yellow"> Offensive_Rebounds </th>
+            <th scope="col"> Defensive_Rebounds </th>
+            <th scope="col" style="background-color: yellow"> Rebounds </th>
+            <th scope="col"> Assists </th>
+
+            <th scope="col" style="background-color: yellow"> Steals </th>
+            <th scope="col"> Blocks </th>
+            <th scope="col" style="background-color: yellow"> Turnovers </th>
+            
+          </tr>
+    
+        {% for i in range(df.shape[0]) %}
+        <tr>
+          <td>&nbsp;</td>
+          <td>{{ df.iloc[i,0] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,1] }}</td>
+          <td>{{ df.iloc[i,2] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,3] }}</td>
+          <td>{{ df.iloc[i,4] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,5] }}</td>
+          <td>{{ df.iloc[i,6] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,7] }}</td>
+          <td>{{ df.iloc[i,8] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,9] }}</td>
+          <td>{{ df.iloc[i,10] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,11] }}</td>
+          <td>{{ df.iloc[i,12] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,13] }}</td>
+          <td>{{ df.iloc[i,14] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,15] }}</td>
+          <td>{{ df.iloc[i,16] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,17] }}</td>
+          <td>{{ df.iloc[i,18] }}</td>
+          <td style="background-color: yellow">{{ df.iloc[i,19] }}</td>
+          
+        </tr>
+        {% endfor %}
+        
+      </table>
+      </form>
+      
+    {% endblock %}
