@@ -1,10 +1,10 @@
-Lors de mon semestre d'échange académique à Bruxelles, j'ai fait des projets dans les différentes matiéres que j'ai suivi.
+During my academic exchange semester in Brussels, I worked on many projects in the different subjects I studied.
 
-La plupart de ces projets étaient dans les domaines d'intelligence artificielle et machine learning.
+Most of these projects were in the areas of Artificial Intelligence and Machine Learning.
 
-Ces projets appartiennent aux matiéres suivantes :
+These projects belong to the following subjects:
 
-- Intelligence Artificielle
+- Artificial Intelligence
 - Machine Learning
 - Image Processing
-- Databases
+- Database
