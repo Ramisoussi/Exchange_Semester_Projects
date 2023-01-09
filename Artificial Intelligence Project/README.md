@@ -8,7 +8,7 @@ In this project, I implemented the following methods:
 
 * Pearson Correlation
 * Mutual Information
-One-Way Anova
-Multivariate Linear Regression
-Simple Linear Regression
-Principal Components analysis
+* One-Way Anova
+* Multivariate Linear Regression
+* Simple Linear Regression
+* Principal Components analysis
