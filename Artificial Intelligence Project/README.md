@@ -6,8 +6,8 @@ I used a dataset extracted from 'Kaggle' which presents the characteristics of c
 
 In this project, I implemented the following methods:
 
-Pearson Correlation
-Mutual Information
+* Pearson Correlation
+* Mutual Information
 One-Way Anova
 Multivariate Linear Regression
 Simple Linear Regression
